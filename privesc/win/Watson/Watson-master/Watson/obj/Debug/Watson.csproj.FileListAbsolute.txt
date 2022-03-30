@@ -1,0 +1,7 @@
+C:\Users\mbr\Downloads\Watson-master\Watson-master\Watson\bin\Debug\Watson.exe.config
+C:\Users\mbr\Downloads\Watson-master\Watson-master\Watson\bin\Debug\Watson.exe
+C:\Users\mbr\Downloads\Watson-master\Watson-master\Watson\bin\Debug\Watson.pdb
+C:\Users\mbr\Downloads\Watson-master\Watson-master\Watson\obj\Debug\Watson.csprojAssemblyReference.cache
+C:\Users\mbr\Downloads\Watson-master\Watson-master\Watson\obj\Debug\Watson.csproj.CoreCompileInputs.cache
+C:\Users\mbr\Downloads\Watson-master\Watson-master\Watson\obj\Debug\Watson.exe
+C:\Users\mbr\Downloads\Watson-master\Watson-master\Watson\obj\Debug\Watson.pdb

