@@ -117,6 +117,7 @@ Best Guess: 4.23-en-COM
 
 V. EXAMPLE USAGE (as library):
 -----------------------------------------------------------------
+```
 $python
 >>> from blindelephant.Fingerprinters import WebAppFingerprinter
 >>> 
@@ -130,3 +131,4 @@ $python
 Possible versions: [LooseVersion ('4.22-en'), LooseVersion ('4.22-en-COM'), LooseVersion ('4.23-en'), LooseVersion ('4.23-en-COM')]
 >>> print "Max possible version: ", fp.best_guess
 Max possible version:  4.23-en-COM
+```
